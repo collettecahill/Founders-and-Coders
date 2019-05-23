@@ -1,8 +1,15 @@
 
 body {
-	font-family: 'Baloo Bhai', cursive;
-    background-image: url(background_image.jpg);
+	font-family: 'Source Code Pro', monospace;
+    background-image: url('../images/background_image.jpg');
     background-size: 120%;
+}
+
+ .wrapper{
+    width:95%;
+    background-color: #ff2277;
+    margin: 0px auto;
+    opacity: .5;
 }
 
 nav {
@@ -14,13 +21,15 @@ nav li {
     list-style-type: none;
 }
 
-.maincontainer {
+.cardholder {
     position: relative;
     width: 350px;
-    height: 450px;
+    height: 400px;
     margin: 50px;
     border: 20px;
-    border-radius: 20px; 
+    border-radius: 20px;
+    margin: 0px auto;
+    padding: 20px; 
 }
 
 .thecard {
@@ -29,6 +38,8 @@ nav li {
     height: 100%;
     transform-style: preserve-3d;
     transition: all 0.5s ease;
+    margin-top: 40px;
+    margin-bottom: 40px
 }
 
 .thecard:hover {
@@ -50,6 +61,8 @@ nav li {
     font-weight: bold;
     border-style: outset;
     padding: 20px;
+    text-align: center;
+    font-size: 30px;
 }
 
 .theback {
@@ -63,6 +76,8 @@ nav li {
     border-radius: 20px;
     border-style: outset;
     padding: 20px;
+    opacity: 1;
+    /*z-index: 1;*/
 }
 
 
