@@ -7,9 +7,9 @@ body {
 
  .wrapper{
     width:95%;
-    background-color: #ff2277;
+    /* background-color: #ff2277; */
     margin: 0px auto;
-    opacity: .5;
+    opacity: .8;
 }
 
 nav {
@@ -39,7 +39,7 @@ nav li {
     transform-style: preserve-3d;
     transition: all 0.5s ease;
     margin-top: 40px;
-    margin-bottom: 40px
+    margin-bottom: 40px;
 }
 
 .thecard:hover {
@@ -57,7 +57,7 @@ nav li {
     background: #BDBFC4;
     color: #485059;
     border-radius: 20px;
-    opacity: 0.5;
+    opacity: .8;
     font-weight: bold;
     border-style: outset;
     padding: 20px;
