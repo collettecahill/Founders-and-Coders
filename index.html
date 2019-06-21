@@ -6,7 +6,20 @@
     <title>Collette's Bio</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css" />
-	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <script>$('ul li.has-children').on("touchstart", function (e) {
+        'use strict'; //satisfy code inspectors
+        var link = $(this); //preselect the link
+        if (link.hasClass('hover')) {
+            return true;
+         } 
+        else {
+           link.addClass('hover');
+           $('ul > li').not(this).removeClass('hover');
+           e.preventDefault();
+           return false; //extra, and to make sure the function has consistent return points
+          }
+        });</script>
 </head>
 <body>
     <div class="wrapper">
