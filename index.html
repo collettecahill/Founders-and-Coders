@@ -1,85 +1,71 @@
 
 <!doctype html>
 <html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Collette's Bio</title>
-    <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
-    <script>$('thecard.hover').on("touchstart", function (e) {
-        'use strict'; //satisfy code inspectors
-        var link = $(this); //preselect the link
-        if (link.hasClass('hover')) {
-            return true;
-         } 
-        else {
-           link.addClass('hover');
-           $('.theback > .thefront').not(this).removeClass('hover');
-           e.preventDefault();
-           return false; //extra, and to make sure the function has consistent return points
-          }
-        });</script>
-</head>
-<body>
-    <div class="wrapper">
-    <header>
-        <nav>
-            <ul>
-                <li>About Me</li>
-                <li>Back Story</li>
-                <li>Master Plan</li>
-                <li>Find Me</li>
-            </ul>
-        </nav> 
-    </header>
-    <main>
-    <div class='cardholder'>
-        <div class='thecard'>
-            <div class='thefront'>About Me</div>
-            <div class='theback'><p>My name is Collette Cahill ('she' pronoun). I live in North London, UK and I am focused on acquiring new and exciting Web Development skills so that I can return to work, having spent that past 7 years at home caring for my 4 children. My previous employment roles include Systems Operator, IT Support Analyst and HR Advisor<p></div>
-        </div>
-    </div>
-<br>
-    <div class='cardholder'>
-        <div class='thecard'>
-            <div class='thefront'>Back Story</div>
-            <div class='theback'><p>In September 2018 I started to teach myself the basics of HTML5 and CSS using online resources. I started out using online coding tutorials from codecadmy.com and codebar.io. I also started attending weekly workshops hosted by codebar.io in various London locations. In March 2019 I signed up for a 4 week introduction course in Web Development hosted by Founders and Coders. All of the resources that I have had access to, have been extremely helpful and have encouraged me to continue towards a career in Web Development. I am also learning Javascript through the tutorials on codecademy.com, codebar.io and freecodecamp.org.</p></div>
-        </div>
-    </div>
-<br>
-    <div class='cardholder'>
-        <div class='thecard'>
-            <div class='thefront'>Master Plan</div>
-            <div class='theback'><p>My immediate aim is to gain a practical working knowledge of front end development languages - HTML/CSS/JavaScript - libraries, frameworks and other development tools. My intention is to create and/or collaborate on at least two web/mobile applications. To further my learning I would like to attend the 16 week bootcamp Winter Cohort 2019 at Founders and Coders. My intention is to reach a level of technical capability which will assist me in building beautiful, accessible web and mobile solutions<p></div>
-        </div>
-    </div>
-<br>
-    <div class='cardholder'>
-        <div class='thecard'>
-            <div class='thefront'>Find Me</div>
-            <div class='theback'>   
-                <ul class="social-icons">
-                    <li><a href="https://www.facebook.com/collette.cahill" target='blank'>
-                    <img src="images/facebook.png" alt="Facebook" />
-                </a></li>
-                    <li><a href="https://www.instagram.com/collettecahill" target='blank'>
-                    <img src="images/instagram.png" alt="Instagram" /></a></li>
-                    <li><a href="https://www.linkedin.com/in/collettecahill" target='blank'>
-                    <img src="images/linkedin.png" alt="Linkedin" /></a></li>
-                    <li><a href="https://github.com/collettecahill" target='blank'>
-                    <img src="images/github.png" alt="Github" /></a></li>
-                    <li><a href="http://codepen.io/collettecahill/" target='blank'>
-                    <img src="images/codepen.png" alt="Codepen" /></a></li>
-                    <li><a href="mailto:collette@pcdlondon.com" target='blank'>
-                    <img src="images/mail.png" alt="Mail" /></a></li>
-                </ul>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Collette's Bio</title>
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="#cardholder1">About Me</a></li>
+                        <li><a href="#cardholder2">Back Story</a></li>
+                        <li><a href="#cardholder3">Master Plan</a></li>
+                        <li><a href="#cardholder4">Find Me</a></li>
+                    </ul>
+                </nav> 
+            </header>
+        <main>
+            <div class='cardholder1'>
+                <div class='thecard'>
+                    <div class='thefront'>About Me</div>
+                    <div class='theback'><p>My name is Collette Cahill ('she' pronoun). I live in North London, UK and I am focused on acquiring new and exciting Web Development skills so that I can return to work, having spent that past 7 years at home caring for my 4 children. My previous employment roles include Systems Operator, IT Support Analyst and HR Advisor<p></div>
+                </div>
             </div>
+<br>
+            <div class='cardholder2'>
+                <div class='thecard'>
+                    <div class='thefront'>Back Story</div>
+                    <div class='theback'><p>In September 2018 I started to teach myself the basics of HTML5 and CSS using online resources. I started out using online coding tutorials from codecadmy.com and codebar.io. I also started attending weekly workshops hosted by codebar.io in various London locations. In March 2019 I signed up for a 4 week introduction course in Web Development hosted by Founders and Coders. All of the resources that I have had access to, have been extremely helpful and have encouraged me to continue towards a career in Web Development. I am also learning Javascript through the tutorials on codecademy.com, codebar.io and freecodecamp.org.</p></div>
+                </div>
             </div>
+<br>
+            <div class='cardholder3'>
+                <div class='thecard'>
+                    <div class='thefront'>Master Plan</div>
+                    <div class='theback'><p>My immediate aim is to gain a practical working knowledge of front end development languages - HTML/CSS/JavaScript - libraries, frameworks and other development tools. My intention is to create and/or collaborate on at least two web/mobile applications. To further my learning I would like to attend the 16 week bootcamp Winter Cohort 2019 at Founders and Coders. My intention is to reach a level of technical capability which will assist me in building beautiful, accessible web and mobile solutions<p></div>
+                </div>
+            </div>
+<br>
+            <div class='cardholder4'>
+                <div class='thecard'>
+                    <div class='thefront'>Find Me</div>
+                    <div class='theback'>   
+                        <ul class="social-icons">
+                            <li><a href="https://www.facebook.com/collette.cahill" target='blank'>
+                                <img src="images/facebook.png" alt="Facebook" /></a></li>
+                            <li><a href="https://www.instagram.com/collettecahill" target='blank'>
+                                <img src="images/instagram.png" alt="Instagram" /></a></li>
+                            <li><a href="https://www.linkedin.com/in/collette-cahill-8b4b9313b" target='blank'>
+                                <img src="images/linkedin.png" alt="Linkedin" /></a></li>
+                            <li><a href="https://github.com/collettecahill" target='blank'>
+                                <img src="images/github.png" alt="Github" /></a></li>
+                            <li><a href="http://codepen.io/collettecahill/" target='blank'>
+                                <img src="images/codepen.png" alt="Codepen" /></a></li>
+                            <li><a href="mailto:collette@pcdlondon.com" target='blank'>
+                                <img src="images/mail.png" alt="Mail" /></a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </main>
     <footer>  
     </footer>
-</div>
-</body>
+        </div>
+    </body>
 </html>
