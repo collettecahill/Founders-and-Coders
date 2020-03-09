@@ -21,6 +21,12 @@ nav li {
     list-style-type: none;
 }
 
+a {
+    color: green;
+    font-family: helvetica;
+    text-decoration: none;
+  }
+
 .cardholder1, .cardholder2, .cardholder3, .cardholder4 {
     position: relative;
     width: 350px;
